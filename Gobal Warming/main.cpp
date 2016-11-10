@@ -2,9 +2,9 @@
      Simulation Name: Global Warming
     -----------------------------------------------------------
     Programming and Designed by Hitesh Sathawane                                 
-    COPYRIGHT ©2015 by Hitesh Sathawane  
+    COPYRIGHT Â©2015 by Hitesh Sathawane  
 	Email:hiteshsathawane@live.com            
-    Website:http://hiteshsathawane.bug3.com											
+    Website:http://hiteshsathawane.com											
     All rights reserved.                                                     
    -----------------------------------------------------------*/
 #include"graphics.h"
