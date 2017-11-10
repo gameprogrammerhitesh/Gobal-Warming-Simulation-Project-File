@@ -7,7 +7,6 @@ void Earth::InitializeSimulation()
 
 }
 void Earth::MainMenu()
-
 {
 	setbkcolor(BLACK);
 	settextstyle(8, 0, 5);
@@ -34,9 +33,8 @@ void Earth::MainMenu()
 	delay(10000);
 	cleardevice();
 }
-//Loding Screen Fu
+//Loding Screen Full
 void Earth::LoadingSimulation()
-
 {
 	setbkcolor(BLACK);
 	int l = 325, j;
@@ -53,9 +51,6 @@ void Earth::LoadingSimulation()
 
 	cleardevice();
 }
-
-
-
 void Earth::UpdateSimulation()
 {
 	// Increasing Temperature In Thermometer
@@ -76,7 +71,7 @@ void Earth::UpdateSimulation()
 
 			/**-----------/////////////////-----------------------------**/
 
-			//Code For Drawing Eyes--------------------------------------------------------------
+			//Code For Drawing Eyes--------------------------------------------
 			//-------Left Eye Code(After Increasing Of Temperature)----------//
 
 			setcolor(WHITE);
@@ -94,8 +89,6 @@ void Earth::UpdateSimulation()
 			fillellipse(425, 260, 5, 5);
 			//
 
-
-
 			//-------------Mouth Code(After Increasing of Temprature----//
 			arc(400, 460, 360, 180, 50);
 			arc(400, 461, 360, 180, 50);
@@ -104,23 +97,16 @@ void Earth::UpdateSimulation()
 
 			delay(10000);
 
-
-
 		}
 	}
 
 }
-
-
 void Earth::DrawSimulation()
 {
 	setbkcolor(WHITE);
 	cleardevice();
 	setcolor(BLACK);
-
-
 	//1. Code For Drawing Earth ---------------------------------------------------------------
-
 	//floodfill(350,350,GREEN);
 
 	setcolor(GREEN);
@@ -131,11 +117,7 @@ void Earth::DrawSimulation()
 	ellipse(350, 350, 0, 360, 247, 247);
 	ellipse(350, 350, 0, 360, 246, 246);
 	ellipse(350, 350, 0, 360, 245, 245);
-
-
 	delay(10);
-
-
 	//2. Statement For Display Text-------------------------------------------------------
 
 	//3. Drawing Maps On Earth-------------------------------------------------------------
@@ -166,8 +148,6 @@ void Earth::DrawSimulation()
 	line(250, 492, 290, 587);
 	//------------------//
 
-
-
 	//Up Side Code
 	line(210, 150, 260, 160);
 	line(210, 151, 260, 161);
@@ -184,8 +164,6 @@ void Earth::DrawSimulation()
 	line(420, 200, 525, 180);
 	line(420, 201, 525, 181);
 	line(420, 202, 525, 182);
-
-
 
 	//3.Code For Drawing Factory  ----------------------------------------------------
 
@@ -230,11 +208,8 @@ void Earth::DrawSimulation()
 	fillellipse(180, 230, 20, 15);// First Circle in Cloud
 	fillellipse(210, 220, 25, 20);// Second Circle in Cloud
 	fillellipse(240, 230, 20, 15);// Third Circle in Cloud
-
-
-								  //4.Code For Drawing Eyes--------------------------------------------------------------
-
-								  //-------Left Eye Code----------//
+	//4.Code For Drawing Eyes--------------------------------------------------------------
+		  //-------Left Eye Code----------//
 
 	setcolor(BLACK);
 	ellipse(300, 275, 0, 360, 15, 15);
@@ -251,7 +226,7 @@ void Earth::DrawSimulation()
 	fillellipse(425, 260, 5, 5);
 
 
-	//PlaySound(TEXT("gb.WAV"), NULL, SND_ASYNC);
+	PlaySound(TEXT("gb.WAV"), NULL, SND_ASYNC);
 
 
 	//5.Code For Drawing Earth Mouth -----------------------------------------------------------------
